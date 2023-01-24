@@ -67,11 +67,11 @@ Now that the table is created go to the left side bar and press on Tables. This 
 
 ![AWS DynamoDB Tables Page](./img/TablesPage.png)
 
-Then click on Employee table, this will bring you to the Update settings page. Under Employee go to the Indexes tab and press on "Create index". This will be used to create the seconday global index that will help with searching using the public key (pk).
+Then click on Employee table, this will bring you to the Update settings page. Under Employee go to the Indexes tab and press on "Create index". This will be used to create the secondary global index that will help with searching using the public key (pk).
 
 ![Update settings page with Indexes tab selected](./img/EmployeeUpdateSettingPage.png)
 
-In partition key type pk for public key. The other settings should remian the default settings, ensure that auto-scaling is off. At the bottom create the key and this might take a while.
+In partition key type pk for public key. The other settings should remain the default settings, ensure that auto-scaling is off. At the bottom create the key and this might take a while.
 
 ![Partition key for secondary global index](./img/SecondaryGlobalIndexPage.png)
 
